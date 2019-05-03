@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "A example how to write Vue code in JSX and compile it into normal javascript.",
   "main": "src/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kiochan/babel-jsx-vue-example.git"
@@ -30,5 +27,8 @@
     "babel-plugin-syntax-jsx": "^6.18.0",
     "babel-plugin-transform-vue-jsx": "^3.7.0",
     "babel-preset-env": "^1.7.0"
+  },
+  "scripts": {
+    "compile": "babel src -d lib"
   }
 }
